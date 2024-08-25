@@ -1,0 +1,37 @@
+->
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+    <head> <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css"> 
+        <title>Encriptar-Desencriptar</title> 
+    </head> 
+    <body> 
+        <div class="container"> 
+            <div class="container__contenido"> 
+                <div class="container__informaciones"> 
+                    <div class="container__texto"> 
+                        <!-- <h1>Encriptar-Desencriptar</h1> --> 
+                        </div> 
+                        <!-- Formulario --> 
+                         <form onsubmit="guardarTexto(); return false;"> 
+                            <textarea class="textarea1" id="valorUsuario" name="w3review" rows="4" cols="50" placeholder="Introduce el texto:"></textarea> 
+                            <div class="chute container__botones"> 
+                                <button type="button" onclick="botonEncriptar();" class="container__boton">Encriptar</button> 
+                                <button type="button" onclick="botonDesencriptar();" class="container__boton">Desencriptar</button> 
+                            </div> 
+                        </form> 
+                    </div> 
+                    <div class="columna2"> <img src="./img/Muñeco.png" alt="Muñeco"> 
+                        <p>Ningún mensaje fue encontrado</p> 
+                    </div> 
+                </div> 
+            </div> 
+            <script src="app.js" defer>
+
+            </script> 
+    </body> 
+</html>
